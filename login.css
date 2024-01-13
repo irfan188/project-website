@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    overflow: hidden;
+}
+
+.background {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.secend-div {
+  display: flex;
+}
+
+.image {
+  background-image: url(./backrounimage.jpeg);
+  height: 620px;
+  width: 900px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  color: rgb(201, 195, 183);
+  margin-top: 130px;
+  margin-left: 40px;
+  font-size: 70px;
+  font-weight: 10px;
+  margin-bottom: 30px;
+  font-family: "Archivo", sans-serif;
+}
+
+h2 {
+  color: rgb(201, 195, 183);
+  margin-left: 40px;
+  font-size: 40px;
+  font-family: "Archivo", sans-serif;
+}
+
+.bi-twitter-x {
+  position: relative;
+  left: 50px;
+  top: 70px;
+  font-size: 35px;
+  color: rgb(201, 195, 183);
+}
+
+.button1 {
+  padding: 13px 110px;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.button2 {
+  padding: 13px 85px;
+  border-radius: 30px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+p {
+  color: rgb(201, 195, 183);
+  margin-left: 40px;
+  margin-top: 15px;
+}
+span {
+  color: #597b9c;
+}
+
+h5 {
+  color: rgb(223, 222, 222);
+  margin-left: 40px;
+  margin-top: 20px;
+  font-family: "Archivo", sans-serif;
+}
+.login {
+  color: #597b9c;
+  position: relative;
+  left: 210px;
+  bottom: 17px;
+  font-family: "Archivo", sans-serif;
+  text-decoration: none;
+}
+
+.therd-div a {
+  color: rgb(201, 195, 183);
+  text-decoration: none;
+  font-size: 13px;
+  
+}
+
+.therd-div{
+    width:96VW ;
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 12px;
+}
+
+.link{
+    color:rgb(201, 195, 183); 
+    text-decoration: none;
+    margin-left: 680px;
+    margin-top: 12px;
+}
